@@ -30,7 +30,7 @@ public class ArrayRotation {
 	public static void main(String[] args) {
 		int[] ar = new int[] { 1, 2, 3, 4, 5, 6, 7 };
 		System.out.println(Arrays.toString(ar));
-		rotate2(ar, 2, 7);
+		rotate1(ar, 2, 7);
 		System.out.println(Arrays.toString(ar));
 	}
 
