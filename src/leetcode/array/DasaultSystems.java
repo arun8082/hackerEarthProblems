@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-public class FilterDuplicates {
+public class DasaultSystems {
 	static private int p=10; 
 	static class A{
 		@Override
@@ -24,7 +24,7 @@ public class FilterDuplicates {
 		int[] nums = {11,7,6,4,3,3,4,9,10};
 		
 		int max = Arrays.stream(nums).max().getAsInt();
-		FilterDuplicates.A a = new A();
+		DasaultSystems.A a = new A();
 		System.out.println(a);
 		
 		System.out.println();
