@@ -1,12 +1,7 @@
 package leetcode.problems;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
-
-import org.w3c.dom.NodeList;
 
 // Definition for singly-linked list. 
 class ListNode {

@@ -1,7 +1,5 @@
 package leetcode.problems;
 
-import java.util.Iterator;
-
 public class P005_LongestPalindromicSubstring {
 	public static String longestPalindrome(String s) {
 		int max = -1;

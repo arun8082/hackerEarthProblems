@@ -1,8 +1,5 @@
 package leetcode.problems;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class P012_IntegertoRoman {
 	public static String intToRoman(int num) {
 		String[] M = { "", "M", "MM", "MMM" };
