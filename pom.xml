@@ -3,8 +3,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>hackerEarthProblems</groupId>
-	<artifactId>hackerEarthProblems</artifactId>
-	<version>0.0.1</version>
+	<artifactId>problem-solutions</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>problems</module>
+		<module>spring-batch</module>
+	</modules>
+	<properties>
+		<java.version>17</java.version>
+		<spring.boot.version>3.2.1</spring.boot.version>
+	</properties>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.2.1</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
