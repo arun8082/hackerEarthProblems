@@ -6,8 +6,8 @@
 	<name>${project.artifactId}</name>
 	<description>Demo project for Spring Batch</description>
 	<parent>
-		<artifactId>problem-solutions</artifactId>
-		<groupId>hackerEarthProblems</groupId>
+		<groupId>com.problem.solution</groupId>
+		<artifactId>hacker-earth-problems</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../</relativePath>
 	</parent>
