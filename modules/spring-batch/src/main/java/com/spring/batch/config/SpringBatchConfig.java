@@ -23,7 +23,8 @@ import com.spring.batch.dao.bean.CustomerBean;
 import com.spring.batch.dao.repo.CustomerRepo;
 
 @Configuration
-@EnableBatchProcessing
+//@EnableBatchProcessing
+@EnableBatchProcessing(dataSourceRef = "batchDataSource", transactionManagerRef = "batchTransactionManager")
 public class SpringBatchConfig extends DefaultBatchConfiguration {
 
 	@Autowired
