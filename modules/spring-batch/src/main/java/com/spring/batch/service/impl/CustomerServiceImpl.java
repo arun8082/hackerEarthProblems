@@ -28,8 +28,9 @@ public class CustomerServiceImpl implements CustomerService {
 	@Override
 	public void importCsvToDb() throws Exception {
 		logger.info("Import CSV started.....................");
-		JobParameters jobParameters = new JobParametersBuilder().addLocalDateTime("start-at", LocalDateTime.now())
-				.toJobParameters();
+		JobParameters jobParameters = new JobParametersBuilder()
+				.addLocalDateTime("start-at", LocalDateTime.now())
+				.addString("csvFileName", "src/main/resources/customers.csv", true).toJobParameters();
 		JobExecution jobExecution = jobLauncher.run(job, jobParameters);
 		logger.info("Import CSV ended.....................{}" + jobExecution.getId());
 	}

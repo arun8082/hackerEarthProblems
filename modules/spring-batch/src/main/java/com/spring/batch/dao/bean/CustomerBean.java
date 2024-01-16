@@ -1,9 +1,5 @@
 package com.spring.batch.dao.bean;
 
-import java.time.LocalDate;
-
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -30,7 +26,8 @@ public class CustomerBean {
 	private String gender;
 	private String contactNo;
 	private String country;
-	@JsonFormat(pattern = "dd-MM-yyyy")
-	private LocalDate dob;
+//	@DateTimeFormat(pattern = "dd-MM-yyyy")
+//	@JsonFormat(pattern = "dd-MM-yyyy")
+	private String dob;
 
 }
